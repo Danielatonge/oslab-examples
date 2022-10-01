@@ -25,7 +25,7 @@ int main() {
             return 2;
         }
         printf("Received %s\n", arr);
-        
+        fflush(stdout);
         close(fd);
     }
     return 0;
